@@ -76,3 +76,19 @@ if not x > 20:
     print("x não é maior que 20")  
 else:
     print("x é maior que 20")
+
+contador = 5
+
+# Loop while
+while contador >= 1:
+    print(contador)
+    contador -= 1
+
+numero = int(input("Digite um número positivo maior que 10: "))
+
+# Loop while para validar a entrada do usuário
+while numero <= 10:
+    print("Número inválido. O número deve ser maior que 10.")
+    numero = int(input("Digite um número positivo maior que 10: "))
+
+print("Número válido:", numero)
